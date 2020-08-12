@@ -39,3 +39,10 @@ python3 manage.py shell
 # .get method should not be used with non-unique field
 
 # >> Pet.objects.get(id=7).vaccinations.all()
+
+
+## Template Syntax
+# {{ variable }}
+# {% tag %}
+# {{ variable|filter }}
+
